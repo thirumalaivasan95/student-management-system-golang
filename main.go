@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/hingbong/student-management-system-golang/models"
-	"github.com/hingbong/student-management-system-golang/routes"
 	"net/http"
 	"time"
+
+	"github.com/thirumalaivasan95/student-management-system-golang/models"
+	"github.com/thirumalaivasan95/student-management-system-golang/routes"
 )
 
 func main() {

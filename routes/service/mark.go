@@ -2,12 +2,13 @@ package service
 
 import (
 	"fmt"
-	"github.com/hingbong/student-management-system-golang/models"
-	"github.com/hingbong/student-management-system-golang/models/entity"
-	"github.com/hingbong/student-management-system-golang/utils"
-	"github.com/labstack/echo"
 	"net/http"
 	"time"
+
+	"github.com/labstack/echo"
+	"github.com/thirumalaivasan95/student-management-system-golang/models"
+	"github.com/thirumalaivasan95/student-management-system-golang/models/entity"
+	"github.com/thirumalaivasan95/student-management-system-golang/utils"
 )
 
 func AddMarkPost(c echo.Context) error {

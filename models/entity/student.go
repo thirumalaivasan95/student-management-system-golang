@@ -2,9 +2,10 @@ package entity
 
 import (
 	"fmt"
-	"github.com/hingbong/student-management-system-golang/models"
 	"strconv"
 	"time"
+
+	"github.com/thirumalaivasan95/student-management-system-golang/models"
 )
 
 type Student struct {
